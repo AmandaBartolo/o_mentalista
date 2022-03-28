@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mentalista</title>
+    <link rel="stylesheet" href="_css/style.css">
+    
+</head>
+<body>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page_logo">
+
+    <div class="title">
+        <h1>O mentalista</h1>
+        <h2>Será que você consegue acertar o número?</h2>
+
+        <h3 id="tentativa"></h3>
+    </div>
+    
+    <div class="container">
+        <input type="number" id="numero_digitado" placeholder="Digite um número de 0 a 10" onfocus="this.value='';"> <br />
+        <button onclick="chutar()">Chutar</button>
+        <h2 id="resposta"></h2>
+    </div>
+
+    <script src="_javascript/script.js"></script>
+</body>
+</html>

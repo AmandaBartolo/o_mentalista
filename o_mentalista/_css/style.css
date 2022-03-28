@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://investidorlucrativo.com.br/wp-content/uploads/2019/05/bola-de-cristal-825x542.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+.page_logo{
+    width: 300px;
+    padding: 100px;
+    display: block;
+    margin: auto;
+}
+.title{
+    margin-top: 100px;
+    text-align: center;
+    color: #000080;
+}
+h1{
+    margin-bottom: 2px;
+    font-size: 60px;
+    text-shadow: 1px 2px 2px 	#151520;
+}
+h2{
+    margin-top: 10px;
+    font-size: 27px;
+}
+#tentativa{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.container{
+    text-align: center;
+}
+#numero_digitado{
+    padding: 18px;
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: #000080;
+    text-align: center;
+    font-size: 15px;
+    color: #000080;
+}
+input::placeholder{
+    color:#000080;
+    font-size: 15px;
+}
+button{
+    padding: 12px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    border-color: #242488;
+    font-size: 18px;
+    color:white;
+    background-color:#000080;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: transform 200ms ease;
+}
+#resposta{
+    width: 500px;
+    color: #000080;
+    display: block;
+    margin: auto;
+}
