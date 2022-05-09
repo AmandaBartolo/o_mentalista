@@ -14,6 +14,9 @@
 Nesse projeto, o usuário terá 3 chances para acertar o número sorteado pelo computador, de 1 a 10. 
 Caso o usuário chute um número maior ou menor que o sorteado, aparece uma dica. 
 
+# Link do projeto
+https://amandabartolo.github.io/o_mentalista/
+
 # Tecnologias utilizadas
 * HTML
 * CSS
